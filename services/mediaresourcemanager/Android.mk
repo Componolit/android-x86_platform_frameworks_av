@@ -8,7 +8,7 @@ LOCAL_SHARED_LIBRARIES := libmedia libstagefright libbinder libutils liblog
 
 LOCAL_MODULE:= libresourcemanagerservice
 
-LOCAL_32_BIT_ONLY := true
+#LOCAL_32_BIT_ONLY := true
 
 LOCAL_C_INCLUDES += \
     $(TOPDIR)frameworks/av/include

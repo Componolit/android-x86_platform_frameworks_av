@@ -38,7 +38,7 @@ LOCAL_C_INCLUDES := \
 LOCAL_CFLAGS += -Wall -Wextra -Werror
 
 LOCAL_MODULE:= mediadrmserver
-LOCAL_32_BIT_ONLY := true
+#LOCAL_32_BIT_ONLY := true
 
 LOCAL_INIT_RC := mediadrmserver.rc
 

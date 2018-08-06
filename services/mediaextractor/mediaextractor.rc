@@ -4,3 +4,4 @@ service mediaextractor /system/bin/mediaextractor
     group drmrpc mediadrm
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks
+    disabled

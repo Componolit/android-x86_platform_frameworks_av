@@ -23,7 +23,7 @@ LOCAL_C_INCLUDES := \
 LOCAL_CFLAGS += -Werror -Wall
 LOCAL_CLANG := true
 
-LOCAL_32_BIT_ONLY := true
+#LOCAL_32_BIT_ONLY := true
 
 include $(BUILD_NATIVE_TEST)
 
@@ -49,6 +49,6 @@ LOCAL_C_INCLUDES := \
 LOCAL_CFLAGS += -Werror -Wall
 LOCAL_CLANG := true
 
-LOCAL_32_BIT_ONLY := true
+#LOCAL_32_BIT_ONLY := true
 
 include $(BUILD_NATIVE_TEST)
